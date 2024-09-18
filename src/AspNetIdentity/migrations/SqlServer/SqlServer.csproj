@@ -1,16 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="All" Version="8.0.8" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\host\Host.csproj" />
-    <ProjectReference Include="..\..\src\IdentityServer4.AspNetIdentity.csproj" />
+    <ProjectReference Include="..\..\src\Mafattah.IdentityServer4.AspNetIdentity.csproj" />
   </ItemGroup>
 
 </Project>
